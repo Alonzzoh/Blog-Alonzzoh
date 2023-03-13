@@ -9,15 +9,14 @@ header {
 }
 h1{
  text-align: justify;
- padding-left: 352px;
- padding-right: 352px;
- margin-top: 56px; 
- margin-bottom: 24px
  font-family: "Open Sans";
  font-style: normal;
  font-weight: 400;
- font-size: 24px;
+ font-size: 36px;
  line-height: 40px;
+ margin-bottom: 32px;
+ margin-left: 352px;
+ margin-right: 352px;
 }
 p{
     text-align: justify;
