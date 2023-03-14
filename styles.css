@@ -89,3 +89,7 @@ footer{
     padding-top: 16px;
     padding-bottom: 16px;    
 }
+em{
+    font-style: italic;
+    font-weight: 400;
+}
