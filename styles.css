@@ -69,6 +69,9 @@ blockquote{
     padding-right: 18px;
     background-color: #D6D3D1;
     border-radius: 8px;
+    font-family: "Open Sans";
+    font-weight: 400px;
+    font-style: italic;
 }
 h3{
  text-align: justify;
