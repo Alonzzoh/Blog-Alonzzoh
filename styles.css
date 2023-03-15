@@ -1,5 +1,9 @@
 @import url("./reset.css");
 @import url("/layout.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+body{
+  font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+}
 header {
   text-align: center;
   background-color: #44403c;
@@ -9,7 +13,7 @@ h1 {
   text-align: justify;
   font-family: "Open Sans";
   font-style: normal;
-  margin-top:48px;
+  margin-top: 48px;
   font-size: 36px;
   line-height: 40px;
   line-height: 82%;
@@ -48,7 +52,7 @@ figure {
 }
 blockquote {
   text-align: justify;
-  margin-bottom: 32px ;
+  margin-bottom: 32px;
   margin-top: 24px;
   padding-top: 16px;
   padding-bottom: 16px;
