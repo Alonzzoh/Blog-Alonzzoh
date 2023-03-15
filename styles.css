@@ -1,99 +1,119 @@
+@import url("./reset.css");
 header {
-    text-align: center;
-    background-color: #44403C;
-    color:  white;
-    margin-bottom: 32px ;
-    padding-top: 16px;
-    padding-bottom: 16px;    
-    
+  text-align: center;
+  background-color: #44403c;
+  color: white;
 }
-h1{
- text-align: justify;
- font-family: "Open Sans";
- font-style: normal;
- font-weight: 400;
- font-size: 36px;
- line-height: 40px;
- margin-bottom: 32px;
- margin-left: 352px;
- margin-right: 352px;
+h1 {
+  text-align: justify;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
 }
-p{
-    text-align: justify;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;
-    margin-left: 352px;
-    margin-right: 352px;
+p {
+  text-align: justify;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
 }
-h2{
- text-align: justify;
- margin-top: 56px;
- font-family: "Open Sans";
- font-style: normal;
- font-weight: 400;
- font-size: 24px;
- line-height: 36px;
- margin-bottom: 24px;
- margin-left: 352px;
- margin-right: 352px;
+h2 {
+  text-align: justify;
+  margin-top: 56px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  
 }
-li{
-    text-align: justify;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;  
-    margin-left: 352px;
-    margin-right: 352px;
- }
-figure{
-    text-align: justify;
-    margin-left: 352px;
-    margin-right: 352px;  
-    margin-top: 32px;
-    margin-bottom: 32px;
- }
-blockquote{
-    text-align: justify;
-    margin-left: 352px;
-    margin-right: 352px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 18px;
-    padding-right: 18px;
-    background-color: #D6D3D1;
-    border-radius: 8px;
-    font-family: "Open Sans";
-    font-weight: 400px;
-    font-style: italic;
+li {
+  text-align: justify;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
 }
-h3{
- text-align: justify;
- margin-top: 32px;
- font-family: "Open Sans";
- font-style: normal;
- font-weight: 400;
- font-size: 24px;
- line-height: 36px;
- margin-bottom: 12px;
- margin-left: 352px;
- margin-right: 352px;
+figure {
+  text-align: justify;
 }
-footer{
-    text-align: center;
-    background-color: #44403C;
-    color:  white;
-    margin-bottom: 32px ;
-    padding-top: 16px;
-    padding-bottom: 16px;    
+blockquote {
+  text-align: justify;
+  margin-bottom: 32px ;
+  margin-top: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 18px;
+  padding-right: 18px;
+  background-color: #d6d3d1;
+  border-radius: 8px;
+  font-family: "Open Sans";
+  font-weight: 400px;
+  font-style: italic;
 }
-em{
-    font-style: italic;
-    font-weight: 400;
+h3 {
+  text-align: justify;
+  margin-top: 32px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+footer {
+  text-align: center;
+  background-color: #44403c;
+  color: white;
+}
+em {
+  font-style: italic;
+  font-weight: 400;
+}
+img {
+  min-width: 320px;
+}
+
+.container-sm {
+  max-width: 640px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+.container,
+.container-md{
+  max-width: 768px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+.container-lg {
+  max-width: 1024px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+.container-xl {
+  max-width: 1280px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+/* Sections */
+.section-sm {
+  margin: 32px 0;
+}
+
+.section,
+.section-md {
+  margin: 48px 0;
+}
+
+.section-lg {
+  margin: 96px 0;
+}
+
+.section-xl {
+  margin: 144px 0;
 }
