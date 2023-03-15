@@ -9,33 +9,39 @@ h1 {
   text-align: justify;
   font-family: "Open Sans";
   font-style: normal;
+  margin-top:48px;
+  font-size: 36px;
+  line-height: 40px;
+  line-height: 82%;
   font-weight: 400;
 }
 p {
   text-align: justify;
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 300;
   font-size: 18px;
   line-height: 32px;
+  font-weight: 300;
+  margin-top: 32px;
 }
 h2 {
   text-align: justify;
   margin-top: 56px;
   font-family: "Open Sans";
   font-style: normal;
+  font-size: 30px;
+  line-height: 40px;
+  line-height: 98%;
+  margin-top: 56px;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  
 }
 li {
   text-align: justify;
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 300;
   font-size: 18px;
   line-height: 32px;
+  font-weight: 300;
 }
 figure {
   text-align: justify;
@@ -51,7 +57,7 @@ blockquote {
   background-color: #d6d3d1;
   border-radius: 8px;
   font-family: "Open Sans";
-  font-weight: 400px;
+  font-weight: 400;
   font-style: italic;
 }
 h3 {
@@ -62,15 +68,16 @@ h3 {
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
+  font-weight: 400;
+}
+em {
+  font-style: italic;
+  font-weight: 400;
 }
 footer {
   text-align: center;
   background-color: #44403c;
   color: white;
-}
-em {
-  font-style: italic;
-  font-weight: 400;
 }
 img {
   min-width: 320px;
