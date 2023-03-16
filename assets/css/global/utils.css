@@ -1,0 +1,21 @@
+.pink {
+    color: var(--pink-600);
+  }
+
+  /* Quitar subrayado en achor */
+.text-decoration-none {
+  text-decoration: none;
+}
+
+  /* Modificadores de ul */
+
+.list-style-none{
+  list-style: none;
+} 
+
+/* Margin left */
+.ml-4{
+  
+  margin-left: 1em;
+
+}

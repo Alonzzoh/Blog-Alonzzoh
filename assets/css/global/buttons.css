@@ -27,35 +27,34 @@
 }
 
 .button-widht-full {
-  font-size: 1em;
-  padding: 0.75em 5.75em;
+width: 100%;;
 }
 
 /* boton default */
 
 .button-default {
-  background-color: var(--gray-300);
-  color: var(--gray-900);
+  background-color: var(--default);
+  color: var(--text);
 }
 
-.button-default:hover {
-  background-color: var(--gray-400);
-  color: var(--gray-900);
+.button--default:hover {
+  background-color: var(--default-dark);
+  color: var(--text);
 }
 
 .button-default:active {
-  background-color: var(--gray-500);
-  color: var(--gray-900);
+  background-color: var(--default-darker);
+  color: var(--text);
 }
 
 .button-default:focus {
-  outline: 3px solid var(--info);
+  outline: 2px solid var(--info);
   outline-offset: 1px;
 }
 
 .button-default:disabled {
-  background-color: var(--gray-300);
-  color: var(--gray-900);
+  background-color: var(--default);
+  color: var(--text);
   opacity: 0.6;
   cursor: default;
 }
@@ -63,27 +62,27 @@
 /* Botones primarios */
 
 .button-primary {
-  background-color: var(--pink-600);
+  background-color: var(--primary);
   color: var(--white);
 }
 
 .button-primary:hover {
-  background-color: var(--pink-700);
+  background-color: var(--primary-dark);
   color: var(--white);
 }
 
 .button-primary:active {
-  background-color: var(--pink-800);
+  background-color: var(--primary-darker);
   color: var(--white);
 }
 
 .button-primary:focus {
-  outline: 3px solid var(--info);
+  outline: 2px solid var(--info);
   outline-offset: 1px;
 }
 
 .button-primary:disabled {
-  background-color: var(--pink-600);
+  background-color: var(--primary);
   color: var(--white);
   opacity: 0.6;
   cursor: default;
@@ -92,33 +91,28 @@
 /* Botones Secundarios */
 
 .button-secondary {
-  background-color: var(--stone-500);
+  background-color: var(---secondary);
   color: var(--white);
 }
 
 .button-secondary:hover {
-  background-color: var(--stone-600);
+  background-color: var(--secondary-dark);
   color: var(--white);
 }
 
 .button-secondary:active {
-  background-color: var(--stone-700);
+  background-color: var(--secondary-darker);
   color: var(--white);
 }
 
 .button-secondary:focus {
-  outline: 3px solid var(--info);
+  outline: 2px solid var(--info);
   outline-offset: 1px;
 }
 
 .button-secondary:disabled {
-  background-color: var(--stone-500);
+  background-color: var(---secondary);
   color: var(--white);
   opacity: 0.6;
   cursor: default;
-}
-
-/* Quitar subrayado en achor */
-.sin-subrayado{
-  text-decoration: none;
 }
