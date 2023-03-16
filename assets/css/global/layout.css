@@ -60,7 +60,7 @@
     margin: 144px 0;
 }
 
-/* Container header xl */
+/* Container header */
 
 .container-header-xl {
   max-width: 1280px;
@@ -68,3 +68,13 @@
   margin: auto;
   margin-top: 40px;
 }
+
+.container-header-lg {
+  max-width:1024px;
+  padding: 0 16px;
+  margin: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+
