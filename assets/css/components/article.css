@@ -1,75 +1,83 @@
-.name {
-  font-size: 30px;
+.article-summary{
+  text-align: center;
+}
+
+
+
+.article {
+  font-size: 18px;
+  /* rem => en relación con el :root => html */
+  /* 16px => 1rem ? => 18px => 1.125rem */
+  /* em => en relación con su elemento padre. */
+  /* 16px => 1em ? => 18px => 1.125em */
+  color: var(--gray-900)
 }
 
 .article h1 {
-  text-align: justify;
-  font-style: normal;
-  margin-top: 48px;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 40px;
-  line-height: 82%;
   font-weight: 400;
+  margin-bottom: 32px;
 }
-.article p {
-  text-align: justify;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 32px;
-  font-weight: 300;
-  margin-top: 32px;
-}
+
 .article h2 {
-  text-align: justify;
-  margin-top: 56px;
-  font-style: normal;
   font-size: 30px;
   line-height: 40px;
-  line-height: 98%;
-  margin-top: 56px;
   font-weight: 400;
+  margin-bottom: 24px;
+  margin-top: 56px;
 }
-.article li {
-  text-align: justify;
-  font-style: normal;
-  font-size: 18px;
+
+.article p {
+  margin: 24px 0;
   line-height: 32px;
   font-weight: 300;
 }
-.article figure {
-  text-align: justify;
+
+.article strong {
+  font-weight: 600;
 }
+
+.article a {
+  font-weight: 400;
+  color: var(--pink-700);
+}
+
+.article li {
+  font-weight: 300;
+  margin: 18px 0;
+  line-height: 32px;
+}
+
 .article blockquote {
-  text-align: justify;
-  margin-bottom: 32px;
-  margin-top: 24px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 18px;
-  padding-right: 18px;
-  background-color: #d6d3d1;
+  margin: 24px 0;
+  padding: 16px 18px;
+  line-height: 32px;
+  font-weight: 300;  
+  border-left: 4px solid var(---stone-300);
+
+  /* margin: 24px 0;
+  padding: 16px 18px;
+  background: #D6D3D1;
   border-radius: 8px;
-  font-weight: 400;
-  font-style: italic;
+  line-height: 32px;
+  font-weight: 400; */
+
+  /* <em></em> =  */
+  /* font-style: italic; */
 }
-.article h3 {
-  text-align: justify;
-  margin-top: 32px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: 400;
+
+.article figure {
+  margin: 32px 0;
 }
-.article em {
-  font-style: italic;
-  font-weight: 400;
+
+.article figcaption {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 16px;
 }
-.article footer {
-  text-align: center;
-  background-color: #44403c;
-  color: white;
-}
+
 .article img {
-  min-width: 320px;
+  border-radius: 8px;
 }
