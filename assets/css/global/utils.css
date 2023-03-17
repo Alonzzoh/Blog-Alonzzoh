@@ -1,19 +1,17 @@
-  /* Quitar subrayado en achor */
+/* Quitar subrayado en achor */
 .text-decoration-none {
   text-decoration: none;
 }
 
-  /* Modificadores de ul */
+/* Modificadores de ul */
 
-.list-style-none{
+.list-style-none {
   list-style: none;
-} 
+}
 
 /* Margin left */
-.ml-4{
-  
+.ml-4 {
   margin-left: 1em;
-
 }
 
 /* Colores */
@@ -28,4 +26,8 @@
 
 .bg-color-secondary-light {
   background-color: var(--secondary-light);
+}
+
+.bg-color-tertiary-light {
+  background-color: var(--gray-200);
 }
