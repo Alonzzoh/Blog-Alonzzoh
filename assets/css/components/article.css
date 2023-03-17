@@ -18,6 +18,13 @@
   padding: .5em;
 }
 
+.article-summary-card-tittle{
+  display: flex;
+}
+
+.article-summary-card-tittle-icon{
+  margin-left: 1.2em;
+}
 .article {
   font-size: 18px;
   /* rem => en relación con el :root => html */
