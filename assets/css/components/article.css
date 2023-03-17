@@ -2,7 +2,21 @@
   text-align: center;
 }
 
+.article-summary-content{
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); */
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2em;
+  text-align: left;
+  margin: 1em 0;
+}
 
+.article-summary-card{
+  display: flex;
+  flex-direction:column ;
+  gap: 0.625em;
+  padding: .5em;
+}
 
 .article {
   font-size: 18px;
