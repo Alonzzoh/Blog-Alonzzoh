@@ -23,8 +23,8 @@
 }
 
 .article-summary-card-icon {
-  margin-top: 5px;
-  margin-right: 19.2px;
+  margin-top: 0.313em;
+  margin-right: 1.2em;
 }
 
 .article-second-summary-content {
@@ -46,11 +46,17 @@
   text-align: center;
 }
 
-
 .article-second-summary-card-images {
-  width: 319px;
-  height: 220px;
+  width: 19.938em;
+  height: 13.75em;
   border-radius: 8px;
+}
+
+.article-summary-card-portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625em;
+  padding: 1em 1.5em;
 }
 
 

@@ -1,0 +1,52 @@
+.badges {
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 0.75em 1em;
+  display: flex;
+  gap: 0.35em;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-specs {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  gap: 1em;
+  align-items: center;
+}
+
+.badges-sm {
+  font-size: 0.8em;
+  padding: 0.5em 0.75em;
+}
+
+.portfolio-icons-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  gap: 1em;
+  align-items: center;
+}
+
+.portfolio-icon {
+  background-color: var(--background);
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.portfolio-icon-link{
+margin-left: 248px;
+color: var(--primary);
+
+}

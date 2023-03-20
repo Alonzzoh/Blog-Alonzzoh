@@ -31,3 +31,11 @@
 .bg-color-tertiary-light {
   background-color: var(--gray-200);
 }
+
+.bg-color-white{
+  background-color: var(--white);
+}
+
+.badges-portfolio-color{
+  background-color: var(--pink-100);
+}
