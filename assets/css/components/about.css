@@ -21,7 +21,10 @@
 }
 
 .about-summary-card svg {
-  fill: var(--pink-600);
+  width: 3rem;
+  height: 2rem;
+  /* fill: var(--pink-600); */
+  fill: #10B981;
 }
 
 .about-summary-card-icon {
