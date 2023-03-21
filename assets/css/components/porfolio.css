@@ -50,3 +50,10 @@ margin-left: 248px;
 color: var(--primary);
 
 }
+
+.article-summary-card-portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625em;
+  padding: 1em 1.5em;
+}
