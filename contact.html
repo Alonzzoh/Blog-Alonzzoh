@@ -19,9 +19,7 @@
           </a>
           <ul class="navbar-links list-style-none">
             <li>
-              <a href="/index.html" class="link text-md semibold"
-                >Articles</a
-              >
+              <a href="/index.html" class="link text-md semibold">Articles</a>
             </li>
             <li>
               <a href="portfolio.html" class="link text-md semibold"
@@ -55,38 +53,76 @@
           </p>
         </div>
         <section class="container-sm">
-          <div class="contactme-form-content">
-            <form>
+          <form>
+            <div class="contactme-form-content">
               <div class="contactme-form-card">
-                <label>
+                <label class="overline">
                   first name
-                  <input type="text" name="firstname" placeholder="Jhonn" />
-                </label>
-                <label>
-                  last name
-                  <input type="text" name="lastname" placeholder="Doe" />
+                  <input
+                    type="text"
+                    name="firstname"
+                    placeholder="Jhonn"
+                    class="input"
+                  />
                 </label>
               </div>
               <div class="contactme-form-card">
-                <label>
+                <label class="overline">
+                  last name
+                  <input
+                    type="text"
+                    name="lastname"
+                    placeholder="Doe"
+                    class="input"
+                  />
+                </label>
+              </div>
+              <div class="contactme-form-card">
+                <label class="overline">
                   email
                   <input
                     type="email"
                     name="email"
                     placeholder="john@mail.com"
+                    class="input"
                   />
-                </label>
-                <label>
-                  company
-                  <input type="text" name="company" placeholder="Company SA" />
                 </label>
               </div>
               <div class="contactme-form-card">
-                <label>
-                  phone
-                  <input type="number" name="phone" placeholder="987654321" />
+                <label class="overline">
+                  company
+                  <input
+                    type="text"
+                    name="company"
+                    placeholder="Company SA"
+                    class="input"
+                  />
                 </label>
-                <label>
+              </div>
+              <div class="contactme-form-card">
+                <label class="overline">
+                  company
+                  <input
+                    type="text"
+                    name="company"
+                    placeholder="Company SA"
+                    class="input"
+                  />
+                </label>
+              </div>
+              <div class="contactme-form-card">
+                <label class="overline">
+                  phone
+                  <input
+                    type="number"
+                    name="phone"
+                    placeholder="987654321"
+                    class="input"
+                  />
+                </label>
+              </div>
+              <div class="contactme-form-card">
+                <label class="overline">
                   country
                   <select name="country">
                     <option selected disabled hidden>Select one option</option>
@@ -357,41 +393,38 @@
                   </select>
                 </label>
               </div>
-            </form>
-          </div>
-          <div class="contactme-select-content">
-            <form>
-              <div class="contactme-select-card">
-                <label>
-                  how can i help you?
-                  <div>
-                    <input type="checkbox" name="Job Offer" value="Job Offer" />
-                    Job Offer
-                  </div>
-                  <div>
-                    <input
-                      type="checkbox"
-                      name="Project Offer"
-                      value="Project Offer"
-                    />
-                    Project Offer
-                  </div>
-                  <div>
-                    <input
-                      type="checkbox"
-                      name="Collaboration"
-                      value="Collaboration"
-                    />
-                    Collaboration
-                  </div>
-                  <div>
-                    <input type="checkbox" name="Other" value="Other" />
-                    Other
-                  </div>
-                </label>
-              </div>
-            </form>
-          </div>
+            </div>
+            <div>
+              <label>
+                how can i help you?
+                <div>
+                  <input type="checkbox" name="Job Offer" value="Job Offer" />
+                  Job Offer
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    name="Project Offer"
+                    value="Project Offer"
+                  />
+                  Project Offer
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    name="Collaboration"
+                    value="Collaboration"
+                  />
+                  Collaboration
+                </div>
+                <div>
+                  <input type="checkbox" name="Other" value="Other" />
+                  Other
+                </div>
+              </label>
+            </div>
+          </form>
+
           <input
             class="button button-primary button-widht-full"
             type="submit"
