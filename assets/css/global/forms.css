@@ -1,18 +1,17 @@
-.inputs {
+.input {
   display: flex;
   align-items: center;
-  border-radius: 10px;
-}
-
-.inputs-default {
   border-radius: 6px;
+  border: 1px solid var(--gray-700);
 }
 
-::placeholder {
+
+.input::placeholder {
   color: var(--gray-400);
 }
 
-.inputs:focus {
+.input:focus {
   outline: 3px solid var(--info);
   outline-offset: 1px;
 }
+

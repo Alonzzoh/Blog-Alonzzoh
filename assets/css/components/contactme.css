@@ -1,0 +1,46 @@
+.contactme-summary-header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.contactme-form-content {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); */
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2em;
+  text-align: left;
+  margin: 1em 0;
+}
+
+.contactme-form-card {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.contactme-form-card label{
+  display: block;
+}
+.contactme-form-card input{
+  width: 100%;
+}
+
+.contactme-form-card select{
+  width: 100%;
+}
+
+.contactme-select-content {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); */
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2em;
+  text-align: left;
+  margin: 1em 0;
+}
+.contactme-select-card{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
