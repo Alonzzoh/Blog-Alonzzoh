@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 2em;
-padding: 0px 16px;
+  padding: 0px 16px;
   margin-top: 32px;
 }
 
@@ -17,10 +17,18 @@ padding: 0px 16px;
   justify-content: space-between;
 }
 
+.contactme-checkbox-content {
+  gap: 2em;
+  padding: 0px 16px;
+  margin-top: 32px;
+}
 
+.contactme-checkbox{
+  margin-top: 32px;
+}
 
-.contactme-form-card select{
-  width: 100%;
+.contactme-button{
+  margin-top: 32px;
 }
 
 

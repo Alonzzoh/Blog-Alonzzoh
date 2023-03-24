@@ -113,8 +113,15 @@
               <div class="contactme-form-card">
                 <label class="overline">
                   country
-                  <select type="country" name="country" class="select" >
-                    <option selected disabled hidden class="select-default-option">Select one option</option>
+                  <select type="country" name="country" class="select">
+                    <option
+                      selected
+                      disabled
+                      hidden
+                      class="select-default-option"
+                    >
+                      Select one option
+                    </option>
                     <option value="AF">Afghanistan</option>
                     <option value="AX">Aland Islands</option>
                     <option value="AL">Albania</option>
@@ -383,9 +390,10 @@
                 </label>
               </div>
             </div>
-            <div>
-              <label>
+            <div class="contactme-checkbox-content">
+              <label class="overline">
                 how can i help you?
+              </label>
                 <div>
                   <input type="checkbox" name="Job Offer" value="Job Offer" />
                   Job Offer
@@ -410,16 +418,17 @@
                   <input type="checkbox" name="Other" value="Other" />
                   Other
                 </div>
-              </label>
+              
             </div>
           </form>
-
-          <input
-            class="button button-primary button-widht-full"
-            type="submit"
-            name="send"
-            value="send"
-          />
+          <div class="contactme-button">
+            <input
+              class="button button-primary button-widht-full"
+              type="submit"
+              name="send"
+              value="send"
+            />
+          </div>
         </section>
       </div>
     </main>
