@@ -88,6 +88,10 @@
   cursor: pointer;
 }
 
+.checkbox{
+  margin-bottom: 8px;
+}
+
 .checkbox-message,
 .input-message {
   display: block;
@@ -107,6 +111,19 @@
  
 }
 
+.radio-group,
+.checkbox-group {
+  display: flex;
+  flex-direction: row;
+  gap: .75rem;
+  margin-top: 32px;
+}
+
+.radio-group--vertical,
+.checkbox-group--vertical {
+  flex-direction: column;
+}
+
 .checkbox-input{
 border-radius: 4px;
 }
@@ -124,3 +141,9 @@ background-repeat: no-repeat;
 background-position: center;
 }
 
+.checkbox-label{
+  font-weight: 300;
+  size: 14px;
+  line-height: 21px;
+  color: var(--gray-900);
+}
