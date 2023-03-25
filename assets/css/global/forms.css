@@ -1,14 +1,13 @@
 .input {
   color: var(--gray-900);
-  width: 100%; 
+  width: 100%;
   font-size: 1rem;
   line-height: 1.25rem;
-  padding: .5rem .75rem;
+  padding: 0.5rem 0.75rem;
   border-radius: 6px;
   border: 1px solid var(--gray-700);
   background-color: var(--white);
 }
-
 
 .input::placeholder {
   color: var(--gray-400);
@@ -25,35 +24,33 @@
   outline: none;
 }
 
-.input-message{
+.input-message {
   display: block;
-  margin:  4px;
+  margin: 4px;
   font-weight: 300;
   size: 14px;
   line-height: 21px;
 }
 
-.input-message-help{
+.input-message-help {
   color: var(--gray-500);
 }
 
-.input-message-error{
-  color: var(--error)
+.input-message-error {
+  color: var(--error);
 }
-
 
 /* SELECTS */
 
-.select{
+.select {
   color: var(--gray-900);
-  width: 100%; 
+  width: 100%;
   font-size: 1rem;
   line-height: 1.25rem;
-  padding: .5rem .75rem;
+  padding: 0.5rem 0.75rem;
   border-radius: 6px;
   border: 1px solid var(--gray-700);
   background-color: var(--white);
-
 
   padding-right: 2.5rem;
   cursor: pointer;
@@ -61,10 +58,11 @@
   background-image: url(/assets/images/select\ check.svg);
   background-repeat: no-repeat;
   background-position-y: center;
-  background-position-x: calc(100% - 12px)
-
+  background-position-x: calc(100% - 12px);
 }
 
+.checkbox-input:focus,
+.radio-input:focus,
 .select:focus {
   outline: 3px solid var(--info);
 }
@@ -75,7 +73,54 @@
   outline: none;
 }
 
-.select-default-option{
+.select-default-option {
   color: var(--gray-400);
   font-weight: 300;
 }
+
+/* RADIO AND CHECKBOX */
+
+.checkbox,
+.radio {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  cursor: pointer;
+}
+
+.checkbox-message,
+.input-message {
+  display: block;
+  color: var(--gray-500);
+  line-height: 1.125rem;
+  font-weight: 300;
+}
+
+.checkbox-input,
+.radio-input {
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+  appearance: none;
+  border: 1px solid var(--gray-700);
+  border-radius: 50%;
+ 
+}
+
+.checkbox-input{
+border-radius: 4px;
+}
+
+.radio-input:checked {
+  border: 4px solid var(--primary);
+}
+
+.checkbox-input:checked {
+background-color: var(--primary);
+border: 1px solid var(--primary);
+
+background-image: url(/assets/images/check-checkbox.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+
