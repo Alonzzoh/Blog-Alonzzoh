@@ -1,6 +1,7 @@
 <!-- Happy coding -->
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <link rel="stylesheet" href="assets/css/styles.css" />
     <meta charset="UTF-8" />
@@ -8,24 +9,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Article</title>
   </head>
+
   <body>
+
     <header class="header">
       <div class="container-lg">
         <nav class="navbar">
+          <input type="checkbox" id="menu-mobile" />
           <a
             href="/index.html"
             class="navbar-logo heading-md semibold text-decoration-none"
           >
             <span> Alonso Perez </span>
+
+            <label for="menu-mobile" id="toggle-close">
+              <i class="ri-close-fill ri-sm"></i>
+            </label>
+
+            <label for="menu-mobile" id="toggle-open">
+              <i class="ri-menu-fill ri-sm"></i>
+            </label>
           </a>
-          <ul class="navbar-links list-style-none">
+
+          <ul class="expandable navbar-links list-style-none">
             <li>
-              <a href="/index.html" class="link text-md semibold"
-                >Articles</a
-              >
+              <a href="/index.html" class="link text-md semibold">Articles</a>
             </li>
             <li>
-              <a href="portfolio.html" class="link text-md semibold">Portafolio</a>
+              <a href="portfolio.html" class="link text-md semibold"
+                >Portafolio</a
+              >
             </li>
             <li>
               <a href="about.html" class="link text-md semibold">About</a>
@@ -33,7 +46,7 @@
             <li>
               <a
                 href="/contact.html"
-                class="button button-primary button-sm text-decoration-none ml-4"
+                class="button button-primary button-sm text-decoration-none ml-4 tambaleo"
                 >Contact Me</a
               >
             </li>
@@ -41,6 +54,7 @@
         </nav>
       </div>
     </header>
+
     <section class="section-md article">
       <div class="container-md">
         <h1>Lessons after 4 weeks learning code</h1>
@@ -109,5 +123,6 @@
         <footer>FOOTER</footer>
       </div>
     </section>
-  </body>
+
+  </body>  
 </html>
