@@ -86,11 +86,15 @@
 
   #toggle-close,
   #toggle-open {
+    position: absolute;
+    right: .75rem;
+    top: 0.5rem;
     color: var(--secondary-darker);
+    transition: opacity .2s linear;
   }
 
   #menu-mobile:not(:checked) ~ * #toggle-close,
   #menu-mobile:checked ~ * #toggle-open {
-    display: none;
+    opacity: 0;
   }
 }
