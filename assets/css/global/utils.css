@@ -43,3 +43,45 @@
 .badges-portfolio-color{
   background-color: var(--pink-100);
 }
+
+
+/* box-shadow button */
+
+.box-shadow:hover{
+  box-shadow: 0px 0px 50px var(--primary-light);
+}
+
+/* tambaleo animacion boton */
+
+.tambaleo:hover{
+
+  animation-name: tambaleo;
+  animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+
+@keyframes tambaleo {
+  0%{
+    transform: rotate(0deg);
+  }
+
+  25%{
+    transform: rotate(-2deg);
+  }
+
+  50%{
+    transform: rotate(2deg);
+  }
+  
+  75%{
+    transform: rotate(-2deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+  
+}
