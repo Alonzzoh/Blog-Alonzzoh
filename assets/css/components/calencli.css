@@ -1,27 +1,10 @@
 .repo-header {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  
 }
 
-.repo-header img{
- margin-left: 32px;
-}
-
-.wraper {
-  display: flex;
-  flex-direction: column;
-  align-self: start;
-}
-
-.leading-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px 32px;
-  
+.repo-header img {
+  margin-left: 32px;
 }
 
 .repo-header-text {
@@ -32,6 +15,6 @@
   gap: 20px;
 }
 
-.repo-button{
-margin-top: 40px;
+.repo-button {
+  margin-top: 40px;
 }
