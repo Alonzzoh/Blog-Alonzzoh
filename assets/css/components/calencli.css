@@ -18,3 +18,54 @@
 .repo-button {
   margin-top: 40px;
 }
+
+.components-app {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1em;
+  margin: 2em 0em;
+}
+
+.component {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1rem;
+}
+.component-icon {
+  background-color: var(--background);
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.members-team {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1em;
+  margin: 2em 0em;
+}
+
+.member-photo {
+  width: 320px;
+  height: 256px;
+  border-radius: 8px;
+}
+
+.member-socialnetworks {
+  display: flex;
+  gap: 20px;
+}
+
+.member-socialnetworks svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--gray-500);
+}
