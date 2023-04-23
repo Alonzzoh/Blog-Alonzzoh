@@ -81,4 +81,11 @@
 .contact-icon svg {
   width: 2.5rem;
   height: 2.5rem;
+  margin-top: 1rem;
+}
+
+.contact-icon-gh svg{
+  width: 2.2rem;
+  height: 2.35rem;
+
 }
