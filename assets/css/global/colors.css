@@ -79,11 +79,11 @@
   --default-dark: var(--gray-400);
   --default-darker: var(--gray-500);
 
-  --primary-lighter: var(--pink-100);
-  --primary-light: var(--pink-300);
-  --primary: var(--pink-600);
-  --primary-dark: var(--pink-700);
-  --primary-darker: var(--pink-900);
+  --primary-lighter: var(--green-100);
+  --primary-light: var(--green-300);
+  --primary: var(--green-600);
+  --primary-dark: var(--green-700);
+  --primary-darker: var(--green-900);
 
   --secondary-lighter: var(--stone-100);
   --secondary-light: var(--stone-300);

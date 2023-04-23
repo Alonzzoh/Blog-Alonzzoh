@@ -93,3 +93,7 @@
   font-size: 0.8em;
   padding: 0.5em 0.75em;
 }
+
+.badges-portfolio-color{
+  background-color: var(--primary-lighter);
+}
