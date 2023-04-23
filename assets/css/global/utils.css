@@ -77,3 +77,8 @@
     transform: rotate(0deg);
   }
 }
+
+.contact-icon svg {
+  width: 2.5rem;
+  height: 2.5rem;
+}
