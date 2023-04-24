@@ -1,18 +1,7 @@
 .repo-header {
-  display: flex;
-  flex-direction: row;
-}
-
-.repo-header img {
-  margin-left: 32px;
-}
-
-.repo-header-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2em;
 }
 
 .repo-button {
