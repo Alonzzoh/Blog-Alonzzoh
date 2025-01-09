@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" href="./assets/images/coding.ico" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="../assets/images/coding.ico" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -56,68 +56,75 @@
 
     <section class="section-md article">
       <div class="container-md">
-        <h1>Lessons after 4 weeks learning code</h1>
+        <h1>Setup con Windows Subsystem Linux (WSL)</h1>
         <p>
-          Article Paragraph (p). Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Elit nunc habitant lorem nunc. Nulla convallis eu
-          pellentesque dolor. Morbi est mauris posuere faucibus tincidunt vitae
-          varius arcu. Ut aliquam tortor consequat nec et sed viverra habitasse.
-          Volutpat id a ut diam vitae amet vitae mauris lacus.
-          <strong>Pretium amet elementum </strong>diam vel urna, quis. Turpis
-          scelerisque eu nulla euismod est nisl. Eget amet, id porttitor auctor
-          nunc rhoncus. Eu egestas nisl amet amet velit orci urna, convallis
-          volutpat. Ac in a dolor vivamus ultricies tincidunt habitasse nec,
-          pellentesque. Condimentum nam ornare nunc turpis cursus in. Enim
-          consequat at at nisi accumsan auctor egestas nulla. Vel aenean integer
-          volutpat arcu eget tempor. Risus a turpis donec neque fermentum ligula
-          congue et adipiscing.
+          Primero abrimos <em class="color-primary semibold">PowerShell</em> he
+          instalamos ubuntu, con el siguiente comando:
         </p>
-        <h2>The first two weeks</h2>
+        <pre><code>
+          wsl --install -d Ubuntu
+        </code></pre>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit nunc
-          habitant lorem nunc. Nulla convallis eu pellentesque dolor. Morbi est
-          mauris posuere faucibus tincidunt vitae varius arcu. Ut aliquam tortor
-          consequat
-          <a href="https://www.google.com" target="_blank">some link</a> nec et
-          sed viverra habitasse. Volutpat id a ut diam vitae amet vitae mauris
-          lacus. Pretium amet elementum diam vel urna, quis. Turpis scelerisque
-          eu nulla euismod est nisl. Eget amet, id porttitor auctor nunc
-          rhoncus.
+          Al finalizar el proceso de instalación pedirá que configures un
+          usuario y contraseña, esto es importante, porque Linux usara esas
+          credenciales para crear tu carpeta de inicio y para que te autentiques
+          cada vez que actualices el sistema (como si de una PC con Linux se
+          tratase). Una vez que lo tenemos instalado, vamos a entrar a la
+          terminal wsl con ubuntu para actualizar el sistema con estos ambos
+          comandos.
         </p>
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>
-            Elit nunc habitant lorem nunc. Nulla convallis eu pellentesque
-            dolor.
-          </li>
-          <li>
-            Morbi est mauris posuere faucibus tincidunt vitae varius arcu.
-          </li>
-        </ul>
+        <pre><code>
+          $ sudo apt update
+          $ sudo apt upgrade
+        </code></pre>
+        <h2>Instalando Windows Terminal</h2>
         <p>
-          Lorem ipsum dolor sit amet, <em>consectetur adipiscing elit.</em> Elit
-          nunc habitant lorem nunc. Nulla convallis eu pellentesque dolor. Morbi
-          est mauris posuere faucibus tincidunt vitae varius arcu.
+          Después de que termine de actualizarse, instalamos
+          <em class="color-primary semibold">Windows terminal</em> desde la
+          Microsoft Store, esta terminal, esta en una fase muy madura, y nos
+          ayudara a interactuar con nuestra terminal
+          <em class="color-primary semibold">WSL</em>
         </p>
-        <div>
-          <blockquote>
-            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit
-            feugiat in quis in sed tortor. Sit tortor, sagittis molestie laoreet
-            sed..”
-          </blockquote>
-          <figure>
-            <img
-              src="/assets/images/Jpgs/sala.jpeg"
-              alt="Sala Figma Codebale"
-            />
-            <figcaption>Image description</figcaption>
-          </figure>
-        </div>
-        <h3>The last two weeks</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit nunc
-          habitant lorem nunc. Nulla convallis eu pellentesque dolor. Morbi est
-          mauris posuere faucibus tincidunt vitae varius arcu.
+          Una vez que tenemos nuestro
+          <em class="color-primary semibold">Windows Terminal</em> instalado, lo
+          vamos a iniciar y este se levantara con la terminal de
+          <em class="color-primary semibold">Windows PowerShell</em> por
+          defecto. Nosotros le diremos que use Ubuntu, y para eso nos vamos al
+          <em>tab-menu</em> y seleccionamos la opción de Settings.Estando ya en
+          <em class="color-primary semibold">Settings</em>, buscaremos la
+          sección <em class="color-primary semibold">Startup</em> y en la opción
+          de
+          <em class="color-primary semibold">Default profile</em>
+          seleccionaremos al pingüino ⇒
+          <em class="color-primary semibold">Ubuntu</em>.
+        </p>
+        <h2>Instalando zsh</h2>
+        <p>
+          Luego, nos vamos a instalar el shell de
+          <em class="color-primary semibold">zsh</em>y su plugin
+          <em class="color-primary semibold">ohmyzsh</em>, esto agregara un
+          template para nuestro terminal y también trae consigo algunas
+          configuraciones.
+        </p>
+        <pre><code>
+          $ sudo apt install zsh
+        </code></pre>
+        <p>
+          Cuando termina la instalación de
+          <em class="color-primary semibold">zsh</em> instalaremos
+          <em class="color-primary semibold">ohmyzsh</em> con el siguiente
+          comando:
+        </p>
+        <pre><code>
+          $ sh -c "$(curl -fsSL 
+          https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+        </code></pre>
+        <p>
+          Y cuando nos pregunten si queremos usar el shell de <em class="color-primary semibold">zsh</em> por default
+          respondemos con <em class="color-primary semibold">Y</em> en la terminal. Perfecto! hasta este punto ya
+          tenemos nuestra terminal instalada y funcionando con <em class="color-primary semibold">WSL - Ubuntu</em> como
+          si de una PC con Linux se tratase.
         </p>
       </div>
     </section>
@@ -127,7 +134,7 @@
           Can I Help you?
         </h2>
         <a
-          href="./contact.html"
+          href="../contact.html"
           class="button button-primary text-decoration-none"
           >Get in touch!</a
         >
@@ -136,7 +143,7 @@
           <br />
           <div class="footer-icon">
             <a
-              href="https://www.linkedin.com/in/alonzzoh/"
+              href="https://www.linkedin.com/in/alonsoperezp/"
               class="color-primary-dark text-decoration-none"
               target="_blank"
               ><svg><use xlink:href="#linkedin" /></svg> Alonso Pérez</a

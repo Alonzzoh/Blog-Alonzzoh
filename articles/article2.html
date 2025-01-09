@@ -1,0 +1,176 @@
+<!-- Happy coding -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="../assets/images/coding.ico" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container-lg">
+        <nav class="navbar">
+          <input type="checkbox" id="menu-mobile" />
+          <a
+            href="/index.html"
+            class="navbar-logo heading-md semibold text-decoration-none"
+          >
+            <span> Alonso Perez {} </span>
+
+            <label for="menu-mobile" id="toggle-close">
+              <i class="ri-close-fill ri-sm"></i>
+            </label>
+
+            <label for="menu-mobile" id="toggle-open">
+              <i class="ri-menu-fill ri-sm"></i>
+            </label>
+          </a>
+
+          <ul class="expandable navbar-links list-style-none">
+            <li>
+              <a href="/index.html" class="link text-md semibold">Articles</a>
+            </li>
+            <li>
+              <a href="portfolio.html" class="link text-md semibold"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="about.html" class="link text-md semibold">About</a>
+            </li>
+            <li>
+              <a
+                href="/contact.html"
+                class="button button-primary button-sm text-decoration-none ml-4 tambaleo"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="section-md article">
+      <div class="container-md">
+        <h1>Centrar un div en CSS</h1>
+        <p>
+          Centrar un div puede parecer sencillo, pero la manera de hacerlo
+          depende del contexto y de los elementos involucrados. Algunas técnicas
+          funcionan mejor para centrar horizontalmente, otras para
+          verticalmente, y algunas permiten centrar en ambos ejes. Aquí
+          exploraremos métodos clásicos y modernos para que elijas la mejor
+          solución según tu caso.
+        </p>
+
+        <h2>Centrar Horizontalmente</h2>
+        <p>
+          Para centrar un div horizontalmente, las opciones más comunes son:
+        </p>
+        <ul>
+          <li><strong> text-align: center</strong></li>
+          <p>
+            Es ideal cuando el div está contenido dentro de otro bloque.
+            Asegúrate de que el contenedor tenga este estilo y que el div tenga
+            <strong>display: inline-block</strong> .
+          </p>
+          <li>
+            <strong>margin: auto</strong>
+            <p>
+              Cuando conoces el ancho del div, aplicar
+              <strong>margin: auto</strong> a los lados izquierdo y derecho
+              funciona perfectamente. Esto requiere que el div tenga un ancho
+              definido.
+            </p>
+          </li>
+        </ul>
+
+        <h2>Centrar Verticalmente</h2>
+        <p>Cuando necesitas centrar un div verticalmente, puedes usar:</p>
+        <ul>
+          <li><strong>Flexbox:</strong></li>
+          <p>
+            Es una solución moderna que permite centrar fácilmente cualquier
+            elemento. Configura el contenedor con
+            <strong> display: flex </strong>
+            y <strong> usa align-items: center </strong>.
+          </p>
+          <li>
+            <strong>position y transform:</strong>
+            <p>
+              Posiciona el div con <strong>position: absolute</strong>y utiliza
+              <strong>top: 50%</strong>combinado con
+              <strong>transform: translateY(-50%)</strong> para ajustarlo.
+            </p>
+          </li>
+        </ul>
+
+        <h2>Centrar en Ambos Ejes</h2>
+        <p>Si necesitas centrar un div tanto horizontal como verticalmente:</p>
+        <ul>
+          <li><strong> Flexbox: </strong></li>
+          <p>
+            Configura el contenedor con
+            <strong> justify-content: center </strong>y
+            <strong>align-items: center</strong>. Este método es limpio y
+            compatible con la mayoría de navegadores modernos.
+          </p>
+          <li>
+            <strong>Grid:</strong>
+            <p>
+              Con <strong>display: grid</strong> y
+              <strong>place-items: center</strong>, puedes lograr un
+              centramiento perfecto en ambos ejes.
+            </p>
+          </li>
+        </ul>
+
+        <p>
+          Centrar un div puede parecer complejo debido a la variedad de opciones
+          disponibles, pero cada técnica tiene su propósito. Para diseños
+          modernos, Flexbox y Grid son las soluciones más recomendadas, mientras
+          que margin: auto sigue siendo útil para diseños más básicos.
+          Experimenta con estas técnicas y encuentra la que mejor se ajuste a tu
+          diseño.
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container-lg footer-content">
+        <h2 class="heading-xl semibold footer-content-title">
+          Can I Help you?
+        </h2>
+        <a
+          href="../contact.html"
+          class="button button-primary text-decoration-none"
+          >Get in touch!</a
+        >
+        <h3 class="semibold footer-content-title">
+          Build with ♥ by
+          <br />
+          <div class="footer-icon">
+            <a
+              href="https://www.linkedin.com/in/alonsoperezp/"
+              class="color-primary-dark text-decoration-none"
+              target="_blank"
+              ><svg><use xlink:href="#linkedin" /></svg> Alonso Pérez</a
+            >
+          </div>
+        </h3>
+      </div>
+    </footer>
+
+    <div hidden>
+      <svg xmlns="http://www.w3.org/2000/svg">
+        <symbol id="linkedin" viewBox="0 0 12 12">
+          <path
+            d="M0.666667 0H11.3333C11.5101 0 11.6797 0.0702379 11.8047 0.195262C11.9298 0.320286 12 0.489856 12 0.666667V11.3333C12 11.5101 11.9298 11.6797 11.8047 11.8047C11.6797 11.9298 11.5101 12 11.3333 12H0.666667C0.489856 12 0.320286 11.9298 0.195262 11.8047C0.0702379 11.6797 0 11.5101 0 11.3333V0.666667C0 0.489856 0.0702379 0.320286 0.195262 0.195262C0.320286 0.0702379 0.489856 0 0.666667 0ZM1.33333 1.33333V10.6667H10.6667V1.33333H1.33333ZM3 4C2.73478 4 2.48043 3.89464 2.29289 3.70711C2.10536 3.51957 2 3.26522 2 3C2 2.73478 2.10536 2.48043 2.29289 2.29289C2.48043 2.10536 2.73478 2 3 2C3.26522 2 3.51957 2.10536 3.70711 2.29289C3.89464 2.48043 4 2.73478 4 3C4 3.26522 3.89464 3.51957 3.70711 3.70711C3.51957 3.89464 3.26522 4 3 4ZM2.33333 4.66667H3.66667V9.66667H2.33333V4.66667ZM6 4.95333C6.38933 4.57667 6.844 4.33333 7.33333 4.33333C8.714 4.33333 9.66667 5.45267 9.66667 6.83333V9.66667H8.33333V6.83333C8.33333 6.52391 8.21042 6.22717 7.99162 6.00838C7.77283 5.78958 7.47609 5.66667 7.16667 5.66667C6.85725 5.66667 6.5605 5.78958 6.34171 6.00838C6.12292 6.22717 6 6.52391 6 6.83333V9.66667H4.66667V4.66667H6V4.95333Z"
+          />
+        </symbol>
+      </svg>
+    </div>
+  </body>
+</html>
